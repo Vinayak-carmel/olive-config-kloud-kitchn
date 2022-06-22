@@ -23,11 +23,11 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          jwk-set-uri: "http://gfkblr.in:7071/.well-known/jwks.json"
+          jwk-set-uri: "http://localhost:7071/.well-known/jwks.json"
 
 # &serverTimezone=UTC
   datasource:
-    url: jdbc:mysql://165.22.217.19:3306/olive?createDatabaseIfNotExist=true&useLegacyDatetimeCode=false
+    url: jdbc:mysql://10.0.0.31:3306/olive?createDatabaseIfNotExist=true&useLegacyDatetimeCode=false
     username: carmel
     password: P@ssw0rd
     driver-class-name: com.mysql.cj.jdbc.Driver
